@@ -1,0 +1,16 @@
+$defaultFont: 'Poppins', sans-serif;
+
+// breakpoint variables
+$lg: 1170px;
+$md: 1024px;
+$sm: 640px;
+$xs: 480px;
+
+// body font size
+$browser-context: 16;
+
+// typography scale
+$body-font-size: (null: 16, $md: 15, $sm: 14, $xs: 13);
+$h1-font-size: (null: 72px);
+$h2-font-size: (null: 24px);
+$p-font-size: (null: 38, $md: 36, $sm: 24, $xs: 24);
