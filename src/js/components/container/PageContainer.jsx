@@ -65,8 +65,9 @@ class PageContainer extends React.PureComponent {
               {index => pages[index]} 
 
               </Transition>
+             
            
-
+           {/* <HookedComponent />  */}
           </div>
     );
   }
@@ -75,4 +76,4 @@ export default PageContainer;
 
 
 const wrapper = document.getElementById("page-container");
-wrapper ? ReactDOM.render(<PageContainer />, wrapper) : false;
+wrapper ? ReactDOM.render(<PageContainer></PageContainer>, wrapper) : false;

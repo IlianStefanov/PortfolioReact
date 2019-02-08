@@ -3,9 +3,9 @@ import PageContainer from "./js/components/container/PageContainer.jsx";
 
 // JS ================
 import './js/main';
-import './js/attrchange';
-import "./js/demo";
-import './js/fullpage.config';
+// import './js/attrchange';
+// import "./js/demo";
+// import './js/fullpage.config';
 
 // import './js/jquery.fullPage';
 

@@ -1,14 +1,17 @@
 import React from 'react';
-import { Spring, config } from'react-spring';
-
+import { Spring, config } from'react-spring/';
+import HookedComponent from '../animations/Hooks.jsx';
 const Counter = () => (
-    <Spring
-        from={{ number: 0 }}
-        to={{ number: 10 }}
-        delay= '1000'
-        config = { config.molasses }>
-        {props => <div>{props.number.toFixed()}</div>}
-    </Spring>
+    <div>
+        <Spring
+            from={{ number: 0 }}
+            to={{ number: 30 }}
+            delay= '1000'
+            config = { config.molasses }>
+            {props => <div>{props.number.toFixed()}</div>}
+        </Spring>
+
+    </div>
 )
 
 export default Counter;
